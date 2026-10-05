@@ -1,0 +1,19 @@
+# Virtual environments
+testing_virtual/
+venv/
+env/
+.env
+
+# Google API Credentials & Tokens (NEVER commit secrets!)
+credentials.json
+token.json
+
+# Python & Notebook cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Temporary / Driver locks
+downloaded_files/
+*.lock
